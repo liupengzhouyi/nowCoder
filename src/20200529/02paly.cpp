@@ -22,5 +22,5 @@ void charNumber() {
         }
     }
     std::cout << sum << std::endl;
-    return 0;
+
 }

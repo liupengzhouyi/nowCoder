@@ -1,23 +1,26 @@
 #include <iostream>
 #include <algorithm>
-
+#include <vector>
 int main() {
-    int sum = 0;
-    std::string str;
-    std::string c;
-    std::cin >> str;
-    std::cin >> c;
-    if (c[0] >= 97 && c[0] <=122) {
-        c[0] = c[0] - 32;
+    int time;
+    int numbers[1002];
+    for (int i = 0; i < 1002; i++) {
+        numbers[i] = -1;
     }
-    for (int i=0;i<str.length();i++) {
-        if (str[i] >= 97 && str[i] <=122) {
-            str[i] = char(str[i] - 32);
+    int key = 0;
+    while (std::cin >> time)
+    {
+        while (time--) {
+            int index;
+            std::cin >> index;
+            numbers[index] = 1;
         }
-        if (str[i] == c[0]) {
-            sum ++;
+        for (int i = 0; i < 1002; i++) {
+            if (numbers[i] != -1) {
+                std::cout << i << std::endl;
+            }
         }
     }
-    std::cout << sum << std::endl;
     return 0;
 }
+

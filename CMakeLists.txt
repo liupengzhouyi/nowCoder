@@ -3,4 +3,4 @@ project(nowCoder)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(nowCoder main.cpp src/20200529/01lastStringlength.cpp src/20200529/02paly.cpp)
+add_executable(nowCoder main.cpp src/20200529/01lastStringlength.cpp src/20200529/02paly.cpp src/20200529/03paly.cpp)
