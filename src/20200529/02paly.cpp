@@ -1,7 +1,10 @@
-#include <iostream>
-#include <algorithm>
+//
+// Created by 刘鹏 on 2020/5/29.
+//
+#include<iostream>
+#include <strings.h>
 
-int main() {
+void charNumber() {
     int sum = 0;
     std::string str;
     std::string c;
