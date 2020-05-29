@@ -1,18 +1,18 @@
-#include <iostream>
-#include <algorithm>
+//
+// Created by 刘鹏 on 2020/5/29.
+//
+#include<iostream>
+#include<string>
 
-int main() {
+
+int lastWordLength() {
     int tempLength = 0;
     std::string temp;
     getline(std::cin, temp);
-    reverse(temp.begin(),temp.end());
+    reverse(temp.begin(), temp.end());
     for(int i=0; i<temp.length(); i++) {
-        if (temp[i] == ' ') {
+        if (temp[i] == ' ' || i == temp.length()) {
             tempLength = i;
-            break;
-        }
-        if (i + 1 == temp.length()) {
-            tempLength = i + 1;
             break;
         }
     }
