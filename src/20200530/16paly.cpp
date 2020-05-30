@@ -1,10 +1,13 @@
+//
+// Created by 刘鹏 on 5/30/2020.
+//
 #include <iostream>
 #include <vector>
 #include <map>
 #include <string>
 
-//求int型正整数在内存中存储时1的个数
-int main()
+// 求int型正整数在内存中存储时1的个数
+int paly16()
 {
     int count = 1;
     int time;
@@ -24,6 +27,7 @@ int main()
     std::cout << count << std::endl;
     return 0;
 }
+
 
 
 
