@@ -1,8 +1,12 @@
+//
+// Created by 刘鹏 on 2020/5/30.
+//
+
 #include <iostream>
 #include <vector>
 #include <map>
 #include <string>
-int main()
+int paly13()
 {
     std::string strNumber;
     std::cin >> strNumber;
