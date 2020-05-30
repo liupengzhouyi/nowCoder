@@ -2,12 +2,16 @@
 // Created by 刘鹏 on 5/31/2020.
 //
 
+//
+// Created by 刘鹏 on 5/31/2020.
+//
+
 #include <iostream>
 #include <vector>
 #include <map>
 #include <string>
 #include <list>
-
+using namespace std;
 
 class item {
     int inedx;
@@ -112,10 +116,13 @@ int paly17()
     std::list<item>::reverse_iterator iter1;
     for(iter1 = myList.rbegin(); iter1 != myList.rend() ;iter1++)
     {
-        std::cout << iter1->getName() << " " << iter1->getNumber() << " " << iter1->getInedx() << std::endl;
+        string aaa = iter1->getName() + " " + iter1->getNumber() + " " + to_string(iter1->getInedx());
+        cout << aaa << endl;
     }
     return 0;
 }
+
+
 
 
 
