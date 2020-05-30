@@ -5,7 +5,29 @@
 #include <string>
 
 void paly08() {
-
+    long number;
+    std::cin >> number;
+    if (number == 1) {
+        std::cout << 1 << " ";
+        return ;
+    }
+    if (number == 2) {
+        std::cout << 2 << " ";
+        return ;
+    }
+    if (number == 3) {
+        std::cout << 3 << " ";
+        return ;
+    }
+    for (long i = 2; i <= number;) {
+        if (number % i == 0) {
+            std::cout << i << " ";
+            number = number / i;
+            i = 2;
+        } else {
+            i = i + 1;
+        }
+    }
 
 
     /*long number;
