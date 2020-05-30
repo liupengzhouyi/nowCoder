@@ -9,7 +9,7 @@ int lastWordLength() {
     int tempLength = 0;
     std::string temp;
     getline(std::cin, temp);
-    reverse(temp.begin(), temp.end());
+    // reverse(temp.begin(), temp.end());
     for(int i=0; i<temp.length(); i++) {
         if (temp[i] == ' ' || i == temp.length()) {
             tempLength = i;

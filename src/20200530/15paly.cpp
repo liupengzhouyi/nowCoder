@@ -1,3 +1,6 @@
+//
+// Created by 刘鹏 on 5/30/2020.
+//
 #include <iostream>
 #include <vector>
 #include <map>
@@ -50,7 +53,7 @@ int whoSom(std::string str1, std::string str2) {
 }
 
 
-int main()
+int paly15()
 {
     int time;
     std::cin >> time;
@@ -72,6 +75,7 @@ int main()
     }
     return 0;
 }
+
 
 
 
