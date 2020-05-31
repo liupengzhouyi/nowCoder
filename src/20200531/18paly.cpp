@@ -1,10 +1,14 @@
+//
+// Created by 刘鹏 on 2020/5/31.
+//
+
 #include <iostream>
 #include <string>
 #include <vector>
 #include <sstream>
 #include <algorithm>
 
-int main(){
+int paly18(){
     std::string password;
     while (std::cin >> password) {
         if (password.length() < 8) {
