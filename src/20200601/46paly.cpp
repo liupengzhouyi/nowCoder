@@ -19,7 +19,7 @@ bool prime_num(int n)
     return flag;
 }
 
-int paly45()
+int paly46()
 {
     int n;
     while(cin>>n)
