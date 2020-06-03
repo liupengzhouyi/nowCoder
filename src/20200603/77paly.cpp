@@ -1,3 +1,7 @@
+//
+// Created by 刘鹏 on 2020/6/3.
+//
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -13,7 +17,7 @@ double sss(double number) {
 }
 
 // 求解立方根
-int main(){
+int paly77(){
 
     double numberI;
     std::cin >> numberI;
