@@ -26,5 +26,5 @@ int paly47()
       }
     }
 
-
+    return 0;
 }

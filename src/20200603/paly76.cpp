@@ -1,10 +1,14 @@
+//
+// Created by 刘鹏 on 2020/6/3.
+//
+
 #include <iostream>
 #include <string>
 #include <vector>
 #include <sstream>
 #include <algorithm>
 
-int main(){
+int paly76(){
 
     int numberI, numberII;
     std::cin >> numberI >> numberII;

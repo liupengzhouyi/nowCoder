@@ -5,6 +5,7 @@
 #include <iostream>
 #include <map>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
@@ -19,7 +20,7 @@ int paly67(){
         for(auto c : str)
             ++m[c];
 
-        vector<pair<char, int> > pvec(m.begin(), m.end());
+        vector<pair<char, int>> pvec(m.begin(), m.end());
         stable_sort(pvec.begin(), pvec.end(), isBigger); // 使用稳定排序, 不能直接使用sort.
 
         for(auto &p : pvec)

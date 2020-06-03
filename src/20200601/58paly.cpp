@@ -6,7 +6,7 @@
 using namespace std;
 // 解方程即可。b代表第一个奇数，等差数列求和
 
-string GetSequeOddNum(int m)
+string asdGetSequeOddNum(int m)
 {
     int b =  m*(m-1) + 1;  // 一定是奇数
     cout << b;
@@ -25,6 +25,6 @@ int paly58()
     int m;
     while(cin >> m)
     {
-        GetSequeOddNum(m);
+        asdGetSequeOddNum(m);
     }
 }
