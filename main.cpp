@@ -3,20 +3,16 @@
 
 using namespace std;
 
+
 int main(void)
 {
     int n;
-    while ( cin >> n )
-    {
-        int A[n], i = n-1, tag;
-        for (i = 0; i < n; i++)
-            cin >> A[i];
-        cin >> tag;
-        sort(A, A+n);
-        if (tag == 1)
-            reverse(A, A+n);
-        for (i = 0; i < n-1; i++)
-            cout << A[i] << ' ';
-        cout << A[n-1] << endl;
+    std::cin >> n;
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        int ii = i * i;
+        count = count + asda(i, ii);
     }
+    std::cout << count << std::endl;
+    return 0;
 }

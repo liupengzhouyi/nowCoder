@@ -22,4 +22,8 @@ int paly79(void)
             cout << A[i] << ' ';
         cout << A[n-1] << endl;
     }
+    return 0;
 }
+
+
+
