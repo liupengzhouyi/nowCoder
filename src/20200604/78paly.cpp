@@ -23,7 +23,7 @@ char max(std::string number) {
 }
 
 // 求解立方根
-int main(){
+int paly78(){
     // std::cout << "Holle World!" << std::endl;
     int sum = 0;
     int count = 0;

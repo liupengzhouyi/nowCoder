@@ -1,9 +1,12 @@
+//
+// Created by 刘鹏 on 2020/6/4.
+//
 #include <iostream>
 #include <algorithm>
 
 using namespace std;
 
-int main(void)
+int paly79(void)
 {
     int n;
     while ( cin >> n )
