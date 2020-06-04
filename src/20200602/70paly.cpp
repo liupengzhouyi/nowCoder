@@ -35,5 +35,6 @@ int paly70()
 
         cout<<outs<<','<<max<<endl;
     }
+    return 0;
 }
 

@@ -11,7 +11,7 @@ void check24(const vector<int> &nums, int index, double result, bool &isSuccess)
 {
     if (index == 4)   //递归结束条件
     {
-        if (abs(result - 24) < 1e-6)
+        //if (abs(result - 24) < 1e-6)
             isSuccess = true;
         return;
     }

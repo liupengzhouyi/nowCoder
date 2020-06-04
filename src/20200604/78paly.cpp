@@ -1,3 +1,7 @@
+//
+// Created by 刘鹏 on 2020/6/4.
+//
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -19,7 +23,7 @@ char max(std::string number) {
 }
 
 // 求解立方根
-int paly78(){
+int main(){
     // std::cout << "Holle World!" << std::endl;
     int sum = 0;
     int count = 0;
