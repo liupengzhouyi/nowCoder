@@ -2,8 +2,7 @@
 // Created by 刘鹏 on 2020/6/5.
 //
 
-链接：https://www.nowcoder.com/questionTerminal/ca6ac6ef9538419abf6f883f7d6f6ee5
-来源：牛客网
+
 
 #include <iostream>
 #include <string>
@@ -12,7 +11,7 @@ using namespace std;
 bool match(string str, string s) {
     return str.find(s) == 0;
 }
-int paly85() {
+int paly84() {
     string str;
     string cmd[6] = {"reset",       "reset board", "board add",     "board delet",      "reboot backplane", "backplane abort" };
     string res[7] = {"reset what",  "board fault", "where to add",  "no board at all",  "impossible",       "install first",    "unkown command" };

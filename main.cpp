@@ -6,9 +6,7 @@ using namespace std;
 
 int main(void)
 {
-    int n;
-    std::cin >> n;
-
+    std::cout << "Hello world!" << std::endl;
     return 0;
 }
 

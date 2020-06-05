@@ -21,7 +21,7 @@ bool check(int n){
                 return false;
     return true;
 }
-void dfs(int n){
+void dfs1(int n){
 
     int h=n/9;
     int l=n%9;
@@ -42,7 +42,7 @@ void dfs(int n){
         for(int i=1;i<=9;i++){
             num[h][l]=i;
             if(check(n)){
-                dfs(n+1);
+                dfs1(n+1);
                 if(flag)
                     return;
                 num[h][l]=0;
@@ -50,12 +50,12 @@ void dfs(int n){
         }
         num[h][l]=0;
     }
-    else dfs(n+1);
+    else dfs1(n+1);
 }
 int paly85(){
     for(int i=0;i<9;i++)
         for(int j=0;j<9;j++)
             cin>>num[i][j];
-    dfs(0);
+    dfs1(0);
     return 0;
 }
